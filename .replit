@@ -1,0 +1,17 @@
+run = "bin/bt start"
+entrypoint = "README.md"
+hidden = [".bundle", ".config"]
+modules = ["ruby-3.2:v6-20240209-9e3a339", "nodejs-20:v8-20230920-bd784b9"]
+
+[nix]
+channel = "stable-23_11"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[deployment]
+run = ["sh", "-c", "bin/bt start"]
+
+[[ports]]
+localPort = 4000
+externalPort = 80

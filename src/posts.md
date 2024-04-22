@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Posts
+paginate:
+  collection: posts
+  per_page: 10
 ---
 
 <ul>
