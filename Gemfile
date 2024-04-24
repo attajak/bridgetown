@@ -34,3 +34,13 @@ gem "puma", "< 7"
 
 # Or for faster parsing of HTML-only resources via Inspectors, use Nokolexbor:
 # gem "nokolexbor", "~> 0.4"
+
+group :bridgetown_plugins do
+  gem "bridgetown-feed", "~> 3.1"
+  gem "bridgetown-seo-tag", "~> 6.0"
+  gem "bridgetown-sitemap", "~> 2.0"
+end
+
+gem "bridgetown-minify-html", "~> 2.0", :group => :bridgetown_plugins
+
+gem "bridgetown-quick-search", "~> 2.0", :group => :bridgetown_plugins
