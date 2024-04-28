@@ -1,13 +1,13 @@
 run = "bin/bt start"
 entrypoint = "README.md"
-hidden = [".bundle", ".config"]
+hidden = [".bundle", ".config", ".upm"]
 modules = ["ruby-3.2:v6-20240209-9e3a339", "nodejs-20:v8-20230920-bd784b9"]
 
 [nix]
 channel = "stable-23_11"
 
 [gitHubImport]
-requiredFiles = [".replit", "replit.nix"]
+requiredFiles = [".replit", "replit.nix", "Gemfile", "package.json"]
 
 [deployment]
 run = ["sh", "-c", "bin/bt start"]

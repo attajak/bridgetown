@@ -45,7 +45,7 @@ Bridgetown.configure do |config|
   # Uncomment to use file-based dynamic template routing via Roda (make sure you
   # uncomment the gem dependency in your `Gemfile` as well):
   #
-  # init :"bridgetown-routes"
+  init :"bridgetown-routes"
   #
 
   # We also recommend that if you're using Roda routes you include this plugin
@@ -64,5 +64,4 @@ Bridgetown.configure do |config|
   init :"bridgetown-feed"
   init :"bridgetown-seo-tag"
   init :"bridgetown-sitemap"
-  init :"bridgetown-quick-search"
 end
