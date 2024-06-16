@@ -82,9 +82,3 @@ hr {
   border-top: 2px dotted #bbb;
   margin: 3rem 0;
 }
-
-bridgetown-search-results {
-  --link-color: #0f5348;
-  --divider-color: #e6e1d7;
-  --text-color: #3e3f3a;
-}

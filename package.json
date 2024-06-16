@@ -16,7 +16,5 @@
     "postcss-preset-env": "^9.1.2",
     "read-cache": "^1.0.0"
   },
-  "dependencies": {
-    "bridgetown-quick-search": "2.0.0"
-  }
+  "dependencies": {}
 }
