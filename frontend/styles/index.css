@@ -82,3 +82,18 @@ hr {
   border-top: 2px dotted #bbb;
   margin: 3rem 0;
 }
+
+bridgetown-search-results {
+/* Adjust the outer container of the popup */
+  --link-color: #0f5348;
+  --divider-color: #e6e1d7;
+  --text-color: #3e3f3a;
+}
+
+bridgetown-search-results::part(inner) {
+/* Adjust the popup contents wrapper */
+}
+
+bridgetown-search-results::part(inner-link) {
+/* Adjust the link style of each search result */
+}

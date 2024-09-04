@@ -39,7 +39,7 @@ minify_html:
   remove_multi_spaces: true
   remove_comments: true
   remove_intertag_spaces: false
-  remove_quotes: false
+  remove_quotes: true
   simple_doctype: false
   remove_script_attributes: false
   remove_style_attributes: false
