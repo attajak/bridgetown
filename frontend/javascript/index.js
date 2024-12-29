@@ -5,6 +5,6 @@ import "$styles/syntax-highlighting.css"
 import components from "$components/**/*.{js,jsx,js.rb,css}"
 
 // Bridgetown quick search
-import "bridgetown-quick-search"
+import "bridgetown-quick-search/dist"
 
 console.info("Bridgetown is loaded!")

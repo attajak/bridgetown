@@ -39,7 +39,7 @@ Bridgetown.configure do |config|
 
   # Uncomment to use Bridgetown SSR (aka dynamic rendering of content via Roda):
   #
-  # init :ssr
+  init :ssr
   #
 
   # Uncomment to use file-based dynamic template routing via Roda (make sure you

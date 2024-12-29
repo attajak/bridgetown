@@ -29,6 +29,7 @@ base_path: "/bridgetown" # the subpath of your site, e.g. /blog. If you set this
 # If you're using esbuild for frontend assets, edit `esbuild.config.js` to
 # update `publicPath`.
 
+permalink: pretty
 timezone: Asia/Bangkok
 pagination:
   enabled: true
