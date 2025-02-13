@@ -9,12 +9,20 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    assignees:
+      - "attajak"
+    labels: "dependencies"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
+    assignees:
+      - "attajak"
+    labels: "dependencies"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
-      
+    assignees:
+      - "attajak"
+    labels: "dependencies"
