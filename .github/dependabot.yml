@@ -9,20 +9,25 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 1000
     assignees:
       - "attajak"
     labels: "dependencies"
+  # Yarn
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 1000
     assignees:
       - "attajak"
     labels: "dependencies"
+  # Github Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
+    open-pull-requests-limit: 1000
     assignees:
       - "attajak"
     labels: "dependencies"
