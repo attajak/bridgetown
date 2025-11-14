@@ -97,8 +97,8 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
     minitest (5.26.1)
-    net-http (0.7.0)
-      uri
+    net-http (0.8.0)
+      uri (>= 0.11.1)
     nio4r (2.7.5)
     public_suffix (6.0.2)
     puma (7.1.0)
@@ -109,7 +109,7 @@ GEM
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     rexml (3.4.4)
-    roda (3.97.0)
+    roda (3.98.0)
       rack
     roda-route_list (2.1.0)
       roda
