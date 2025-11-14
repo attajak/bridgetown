@@ -37,3 +37,8 @@ yarn-debug.log*
 .yarn
 # Yarn Integrity file
 .yarn-integrity
+
+# Bin
+bin
+bin/
+/bin
