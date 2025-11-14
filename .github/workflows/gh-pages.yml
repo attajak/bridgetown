@@ -26,7 +26,7 @@ jobs:
       - name: Build
         env:
           BRIDGETOWN_ENV: production
-        run: bin/bridgetown deploy
+        run: bundle exec bridgetown deploy
 
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v4
