@@ -43,4 +43,4 @@ end
 
 gem "bridgetown-minify-html", "~> 2.0", :group => :bridgetown_plugins
 
-gem "bridgetown-quick-search", "~> 3.0"
+gem "bridgetown-quick-search", "~> 3.0", :group => :bridgetown_plugins
